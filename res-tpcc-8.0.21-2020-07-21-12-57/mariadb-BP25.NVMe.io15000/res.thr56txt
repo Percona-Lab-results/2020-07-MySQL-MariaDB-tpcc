@@ -1,0 +1,153 @@
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 56
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 2 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 2 times)
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 2 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 2 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+(last message repeated 5 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 4 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: unable to connect to MySQL server on host '127.0.0.1', port 3306, aborting...
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+FATAL: error 2003: Can't connect to MySQL server on '127.0.0.1' (111)
+FATAL: `thread_init' function failed: ./tpcc_common.lua:74: connection creation failed
+(last message repeated 12 times)
+FATAL: Thread initialization failed!
