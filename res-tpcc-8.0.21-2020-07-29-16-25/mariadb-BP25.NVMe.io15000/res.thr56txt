@@ -1,0 +1,359 @@
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 56
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+1,56,2003.66,60665.77,27648.87,28785.97,4230.94,68.05,11.98,0.00
+2,56,2036.05,58047.53,26426.70,27549.73,4071.11,73.13,6.00,0.00
+3,56,2383.98,65851.44,29980.74,31101.74,4768.96,56.84,8.00,0.00
+4,56,2357.70,66822.52,30484.13,31623.99,4714.40,54.83,7.00,0.00
+5,56,2383.35,68678.21,31418.67,32491.83,4767.71,52.89,10.00,0.00
+6,56,2450.85,68834.73,31386.05,32546.98,4901.70,52.89,9.00,0.00
+7,56,2454.05,68061.31,31036.60,32116.62,4908.09,53.85,3.00,0.00
+8,56,2428.90,68912.06,31402.66,32651.60,4857.79,54.83,5.00,0.00
+9,56,2410.11,69477.12,31707.43,32949.48,4820.22,56.84,14.00,0.00
+10,56,2453.17,70033.96,31868.26,33259.35,4906.35,54.83,12.00,0.00
+11,56,2431.70,68334.45,31119.10,32351.95,4863.39,56.84,12.00,0.00
+12,56,2392.32,69834.20,31911.21,33138.37,4784.63,56.84,8.00,0.00
+13,56,2461.80,69187.46,31555.47,32708.38,4923.61,56.84,13.00,0.00
+14,56,2450.97,69658.27,31751.67,33005.66,4900.95,57.87,9.00,0.00
+15,56,2481.24,70505.75,32193.08,33349.19,4963.48,56.84,12.00,0.00
+16,56,2489.78,70129.69,31984.12,33166.02,4979.55,54.83,9.00,0.00
+17,56,2456.12,67978.32,30927.51,32138.57,4912.24,56.84,8.00,0.00
+18,56,2344.09,66995.61,30605.19,31702.24,4688.18,58.92,5.00,0.00
+19,56,2404.85,68942.72,31511.04,32621.97,4809.70,56.84,7.00,0.00
+20,56,2380.04,68830.06,31389.49,32680.51,4760.07,58.92,11.00,0.00
+21,56,2457.86,69119.09,31557.22,32646.15,4915.72,57.87,9.00,0.00
+22,56,2506.05,69817.27,31810.58,32994.60,5012.09,55.82,8.00,0.00
+23,56,2450.95,69547.56,31759.34,32886.32,4901.90,58.92,16.00,0.00
+24,56,2523.99,69655.84,31757.93,32849.92,5047.99,56.84,10.00,0.00
+25,56,2513.98,70087.47,31974.76,33084.75,5027.96,56.84,9.00,0.00
+26,56,2455.96,68325.01,31152.55,32261.53,4910.93,58.92,13.00,0.00
+27,56,2506.07,69434.87,31697.85,32723.88,5013.13,58.92,11.00,0.00
+28,56,2448.18,70428.23,32159.39,33372.48,4896.36,58.92,13.00,0.00
+29,56,2431.00,67566.90,30828.96,31875.95,4861.99,57.87,10.00,0.00
+30,56,2444.09,68274.45,31108.12,32278.16,4888.18,59.99,13.00,0.00
+31,56,2510.77,70103.38,31969.75,33112.10,5021.53,57.87,14.00,0.00
+32,56,2536.02,72277.98,32958.22,34247.72,5072.03,57.87,12.00,0.00
+33,56,2473.13,69577.61,31703.64,32927.71,4946.26,58.92,11.00,0.00
+34,56,2385.07,68855.13,31460.97,32624.01,4770.15,59.99,11.00,0.00
+35,56,2385.81,68436.60,31256.53,32409.44,4770.62,59.99,5.00,0.00
+36,56,2482.08,68219.07,31113.95,32139.98,4965.15,59.99,8.00,0.00
+37,56,2473.17,68964.94,31459.48,32559.11,4946.35,58.92,8.00,0.00
+38,56,2499.66,70346.56,32027.45,33319.79,4999.32,58.92,18.00,0.00
+39,56,2418.25,70527.28,32200.32,33490.46,4836.50,59.99,10.00,0.00
+40,56,2379.98,66736.49,30471.77,31504.76,4759.96,61.08,16.00,0.00
+41,56,2463.78,70613.77,32157.16,33530.04,4926.57,59.99,8.00,0.00
+42,56,2473.26,70683.42,32196.38,33539.52,4947.52,58.92,13.00,0.00
+43,56,2484.02,69716.45,31783.20,32965.21,4968.03,59.99,9.00,0.00
+44,56,2401.97,70116.11,31996.59,33315.58,4803.94,58.92,12.00,0.00
+45,56,2413.80,68738.23,31374.36,32536.27,4827.59,61.08,14.00,0.00
+46,56,2495.02,71993.48,32792.22,34211.23,4990.03,56.84,12.00,0.00
+47,56,2496.07,69700.82,31768.83,32940.86,4991.13,58.92,13.00,0.00
+48,56,2417.15,69543.30,31718.96,32989.04,4835.30,59.99,8.00,0.00
+49,56,2374.78,68509.75,31292.14,32468.04,4749.57,61.08,8.00,0.00
+50,56,2457.93,69658.09,31846.13,32896.10,4915.87,58.92,9.00,0.00
+51,56,2446.89,70421.92,32178.59,33349.54,4893.79,58.92,9.00,0.00
+52,56,2407.27,68202.72,31120.52,32268.65,4813.54,61.08,9.00,0.00
+53,56,2379.87,70372.08,32182.21,33429.14,4760.73,58.92,9.00,0.00
+54,56,2480.05,70722.33,32304.61,33458.63,4959.09,58.92,12.00,0.00
+55,56,2458.93,70438.88,32044.03,33475.99,4918.85,59.99,8.00,0.00
+56,56,2394.04,70205.14,32150.52,33266.54,4788.08,59.99,12.00,0.00
+57,56,2514.24,71171.68,32420.04,33723.17,5028.47,58.92,7.00,0.00
+58,56,2526.02,71434.49,32522.22,33860.23,5052.03,58.92,9.00,0.00
+59,56,2424.96,68617.86,31257.48,32512.46,4847.92,59.99,6.00,0.00
+60,56,2445.98,70099.48,32032.76,33172.75,4893.96,58.92,15.00,0.00
+61,56,2447.03,69784.78,31904.36,32987.37,4893.05,58.92,13.00,0.00
+62,56,2425.02,68121.56,31049.25,32221.26,4851.04,61.08,9.00,0.00
+63,56,2405.79,69237.92,31617.22,32809.12,4811.58,61.08,9.00,0.00
+64,56,2509.94,70559.19,32253.17,33286.14,5019.87,57.87,9.00,0.00
+65,56,2526.92,71201.70,32451.95,33695.91,5053.84,57.87,7.00,0.00
+66,56,2458.22,70092.17,32047.82,33127.91,4916.43,61.08,8.00,0.00
+67,56,2478.04,70233.17,32074.53,33202.55,4956.08,57.87,8.00,0.00
+68,56,2424.76,69810.00,31847.04,33113.44,4849.53,59.99,10.00,0.00
+69,56,2430.19,68182.27,31153.61,32168.28,4860.38,59.99,9.00,0.00
+70,56,2502.05,69650.52,31725.69,32920.72,5004.11,58.92,8.00,0.00
+71,56,2487.02,70599.52,32183.24,33442.25,4974.04,58.92,13.00,0.00
+72,56,2453.83,70277.17,32013.80,33355.71,4907.66,59.99,9.00,0.00
+73,56,2483.99,69271.83,31622.92,32680.92,4967.99,58.92,9.00,0.00
+74,56,2410.86,68654.04,31327.19,32506.13,4820.72,62.19,7.00,0.00
+75,56,2379.11,67665.00,30914.37,31991.42,4759.21,61.08,14.00,0.00
+76,56,2479.68,72080.71,32887.53,34233.81,4959.37,59.99,14.99,0.00
+77,56,2420.56,70481.56,32191.81,33448.62,4841.13,57.87,14.01,0.00
+78,56,2449.82,70025.92,31947.68,33178.59,4899.64,59.99,11.00,0.00
+79,56,2445.03,69103.74,31565.34,32648.35,4890.05,62.19,10.00,0.00
+80,56,2459.91,70057.49,31927.86,33209.81,4919.82,59.99,15.00,0.00
+81,56,2515.11,69247.95,31549.34,32668.39,5030.21,59.99,9.00,0.00
+82,56,2469.00,68463.07,31204.03,32321.03,4938.00,59.99,12.00,0.00
+83,56,2440.10,68810.82,31310.28,32620.34,4880.20,59.99,10.00,0.00
+84,56,2450.80,68709.43,31405.45,32402.37,4901.60,62.19,9.00,0.00
+85,56,2402.98,68897.41,31442.73,32648.72,4805.96,61.08,14.00,0.00
+86,56,2385.96,69393.78,31664.44,32957.42,4771.92,61.08,13.00,0.00
+87,56,2456.30,69836.46,31861.86,33062.01,4912.60,59.99,13.00,0.00
+88,56,2475.90,69851.12,31887.69,33011.64,4951.80,61.08,10.00,0.00
+89,56,2508.95,70730.50,32224.31,33488.29,5017.89,59.99,12.00,0.00
+90,56,2472.89,70370.92,32099.60,33326.54,4944.78,58.92,8.00,0.00
+91,56,2463.63,70359.90,32055.15,33376.49,4928.25,59.99,9.00,0.00
+92,56,2515.36,70567.99,32211.78,33325.50,5030.72,58.92,10.00,0.00
+93,56,2480.18,69817.12,31858.34,32998.42,4960.36,61.08,11.00,0.00
+94,56,2463.02,68871.65,31397.30,32548.31,4926.05,59.99,10.00,0.00
+95,56,2425.89,69560.96,31721.61,32987.56,4851.79,59.99,10.00,0.00
+96,56,2489.13,70847.81,32294.74,33574.80,4978.27,58.92,5.00,0.00
+97,56,2352.01,67762.23,30952.11,32106.11,4704.02,62.19,13.00,0.00
+98,56,2511.97,69722.22,31729.65,32968.63,5023.94,59.99,15.00,0.00
+99,56,2437.98,70893.54,32389.79,33627.78,4875.97,59.99,11.00,0.00
+100,56,2440.87,69898.35,31930.33,33086.27,4881.75,61.08,6.00,0.00
+101,56,2460.75,70384.94,32097.78,33365.65,4921.51,61.08,6.00,0.00
+102,56,2387.38,68955.90,31536.98,32644.16,4774.75,61.08,10.00,0.00
+103,56,2485.05,70482.37,32112.62,33399.65,4970.10,59.99,16.00,0.00
+104,56,2438.74,70556.39,32163.53,33516.38,4876.47,59.99,10.00,0.00
+105,56,2481.08,69418.21,31680.01,32775.04,4963.16,58.92,8.00,0.00
+106,56,2453.09,70762.58,32310.18,33546.22,4906.18,59.99,12.00,0.00
+107,56,2457.84,68779.39,31363.90,32499.82,4915.67,59.99,10.00,0.00
+108,56,2435.01,68193.21,31126.10,32197.10,4870.02,61.08,13.00,0.00
+109,56,2339.06,67417.69,30850.77,31888.80,4678.12,61.08,6.00,0.00
+110,56,2499.12,69631.37,31751.54,32881.59,4998.24,59.99,7.00,0.00
+111,56,2504.99,72397.78,32955.90,34431.90,5009.99,58.92,16.00,0.00
+112,56,2500.06,70428.64,32094.75,33333.78,5000.12,59.99,11.00,0.00
+113,56,2457.98,68763.49,31396.77,32450.76,4915.96,61.08,7.00,0.00
+114,56,2455.82,69990.89,31988.66,33090.58,4911.64,61.08,12.00,0.00
+115,56,2377.78,67846.85,30975.19,32116.09,4755.57,62.19,8.00,0.00
+116,56,2292.78,68718.38,31356.98,32775.84,4585.56,63.32,8.00,0.00
+117,56,2433.88,70240.42,32046.36,33326.30,4867.75,59.99,13.00,0.00
+118,56,2429.01,69037.22,31524.10,32655.10,4858.02,61.08,14.00,0.00
+119,56,2463.39,67832.67,30891.86,32014.04,4926.77,61.08,10.00,0.00
+120,56,2536.55,70719.59,32287.33,33359.14,5073.11,58.92,3.00,0.00
+121,56,2473.49,71042.31,32338.31,33757.02,4946.98,58.92,14.00,0.00
+122,56,2483.26,70214.74,31922.25,33325.96,4966.53,59.99,12.01,0.00
+123,56,2416.99,68485.63,31257.83,32393.83,4833.97,59.99,9.00,0.00
+124,56,2433.82,70203.71,32040.58,33295.49,4867.63,59.99,9.00,0.00
+125,56,2436.10,68792.70,31481.24,32439.28,4872.19,62.19,12.00,0.00
+126,56,2422.17,69088.90,31577.24,32667.32,4844.34,59.99,10.00,0.00
+127,56,2471.87,69671.32,31771.32,32957.26,4942.74,58.92,19.00,0.00
+128,56,2504.93,70756.08,32256.13,33489.09,5010.86,58.92,8.00,0.00
+129,56,2478.13,70603.78,32195.73,33451.79,4956.27,59.99,6.00,0.00
+130,56,2521.78,70038.79,31933.17,33062.07,5043.55,58.92,8.00,0.00
+131,56,2453.24,70712.88,32119.30,33687.09,4906.49,58.92,12.01,0.00
+132,56,2418.09,69620.77,31826.01,32958.58,4836.18,61.08,13.00,0.00
+133,56,2447.74,68955.70,31444.67,32615.54,4895.48,62.19,10.00,0.00
+134,56,2408.15,70387.39,32130.00,33441.09,4816.30,62.19,21.00,0.00
+135,56,2479.85,69152.84,31607.10,32586.04,4959.70,59.99,13.00,0.00
+136,56,2442.10,68532.89,31271.32,32377.37,4884.21,62.19,12.00,0.00
+137,56,2514.05,71039.39,32346.63,33664.66,5028.10,58.92,8.00,0.00
+138,56,2434.87,66878.48,30521.39,31487.34,4869.74,61.08,10.00,0.00
+139,56,2452.17,67864.77,30936.18,32023.25,4905.34,61.08,9.00,0.00
+140,56,2399.06,68767.62,31318.74,32651.77,4797.11,62.19,9.00,0.00
+141,56,2424.78,68330.78,31116.17,32365.05,4849.56,62.19,8.00,0.00
+142,56,2448.93,68863.94,31359.06,32607.02,4897.85,62.19,13.00,0.00
+143,56,2386.99,68749.84,31390.93,32584.92,4773.99,64.47,10.00,0.00
+144,56,2424.06,71168.84,32451.84,33868.88,4848.13,59.99,4.00,0.00
+145,56,2501.03,70202.74,32001.34,33200.35,5001.05,58.92,10.00,0.00
+146,56,2424.18,70347.10,32098.33,33399.42,4849.35,59.99,11.00,0.00
+147,56,2566.82,71231.95,32388.70,33709.61,5133.64,58.92,6.00,0.00
+148,56,2398.97,69666.12,31864.60,33003.58,4797.94,61.08,15.00,0.00
+149,56,2505.24,70065.72,31976.06,33079.17,5010.48,57.87,11.00,0.00
+150,56,2370.88,68044.55,31099.42,32203.37,4741.76,63.32,12.00,0.00
+151,56,2452.98,69719.37,31815.71,32997.70,4905.96,61.08,11.00,0.00
+152,56,2457.92,69740.64,31782.92,33041.88,4915.83,61.08,10.00,0.00
+FATAL: mysql_drv_query() returned error 1053 (Server shutdown in progress) for query 'UPDATE stock6
+	                SET s_quantity = 17
+	              WHERE s_i_id = 64383 
+		        AND s_w_id= 85'
+FATAL: mysql_drv_query() returned error 1053 (Server shutdown in progress) for query 'UPDATE stock3
+	                SET s_quantity = 11
+	              WHERE s_i_id = 48050 
+		        AND s_w_id= 78'
+FATAL: mysql_drv_query() returned error 1053 (Server shutdown in progress) for query 'UPDATE customer4 
+                        SET c_balance = c_balance + 17916.110000,
+                            c_delivery_cnt = c_delivery_cnt + 1
+                      WHERE c_id = 186 
+                        AND c_d_id = 10 
+                        AND c_w_id = 62'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:194: SQL error, errno = 1053, state = '08S01': Server shutdown in progress
+FATAL: mysql_drv_query() returned error 1053 (Server shutdown in progress) for query 'SELECT c_first, c_middle, c_last, c_street_1,
+                                 c_street_2, c_city, c_state, c_zip, c_phone,
+                                 c_credit, c_credit_lim, c_discount, c_balance, c_ytd_payment, c_since
+			    FROM customer10
+			   WHERE c_w_id = 19 
+			     AND c_d_id= 3
+			     AND c_id=259 FOR UPDATE'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item6
+	                   WHERE i_id = 73455'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item5
+	                   WHERE i_id = 8121'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item10
+	                   WHERE i_id = 9026'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item9
+	                   WHERE i_id = 73406'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item8
+	                   WHERE i_id = 9649'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:194: SQL error, errno = 1053, state = '08S01': Server shutdown in progress
+(last message repeated 2 times)
+FATAL: `thread_run' function failed: ./tpcc_run.lua:642: SQL error, errno = 1053, state = '08S01': Server shutdown in progress
+FATAL: `thread_run' function failed: [string "sysbench.sql.lua"]:300: SQL error, errno = 1053, state = '08S01': Server shutdown in progress
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item4
+	                   WHERE i_id = 88239'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item4
+	                   WHERE i_id = 22387'
+(last message repeated 1 times)
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item10
+	                   WHERE i_id = 38334'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item6
+	                   WHERE i_id = 15027'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item8
+	                   WHERE i_id = 60918'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item1
+	                   WHERE i_id = 89675'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item10
+	                   WHERE i_id = 61100'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item9
+	                   WHERE i_id = 52823'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+(last message repeated 1 times)
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item7
+	                   WHERE i_id = 96234'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item5
+	                   WHERE i_id = 63274'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item1
+	                   WHERE i_id = 87866'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item7
+	                   WHERE i_id = 80339'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item7
+	                   WHERE i_id = 1727'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item8
+	                   WHERE i_id = 54906'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item3
+	                   WHERE i_id = 70518'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item1
+	                   WHERE i_id = 80748'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item4
+	                   WHERE i_id = 62155'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item8
+	                   WHERE i_id = 1385'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item9
+	                   WHERE i_id = 43862'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item9
+	                   WHERE i_id = 75595'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item4
+	                   WHERE i_id = 10651'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item8
+	                   WHERE i_id = 36182'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item4
+	                   WHERE i_id = 46895'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item2
+	                   WHERE i_id = 73201'
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item8
+	                   WHERE i_id = 41050'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+(last message repeated 1 times)
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:222: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'SELECT i_price, i_name, i_data 
+	                    FROM item6
+	                   WHERE i_id = 25434'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:145: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 2013 (Lost connection to MySQL server during query) for query 'COMMIT'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:408: SQL error, errno = 2013, state = 'HY000': Lost connection to MySQL server during query
+FATAL: mysql_drv_query() returned error 1053 (Server shutdown in progress) for query 'UPDATE warehouse7
+	          SET w_ytd = w_ytd + 395 
+	        WHERE w_id = 14'
+FATAL: `thread_run' function failed: ./tpcc_run.lua:258: SQL error, errno = 1053, state = '08S01': Server shutdown in progress
+FATAL: mysql_drv_query() returned error 1053 (Server shutdown in progress) for query 'SELECT d_next_o_id, d_tax 
+                                          FROM district5 
+                                         WHERE d_w_id = 89 
+                                           AND d_id = 1 FOR UPDATE'
+FATAL: `thread_run' function failed: [string "sysbench.sql.lua"]:300: SQL error, errno = 1053, state = '08S01': Server shutdown in progress

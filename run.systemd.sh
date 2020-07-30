@@ -1,10 +1,11 @@
 HOST="--mysql-socket=/tmp/mysql.sock"
 #HOST="--mysql-host=127.0.0.1"
-MYSQLDIR=/opt/vadim/Percona-Server-5.7.21-20-Linux.x86_64.ssl100
-DATADIR=/mnt/nvmi/sysbench
-CONFIG=cnf/my.cnf
-TEST=oltp_point_select
+MYSQLDIR=/mnt/data/vadim/servers/mysql-8.0.21-linux-glibc2.12-x86_64
+DATADIR=/data/mariadb-10.5.4
+BACKUPDIR=/mnt/data/mariadb-10.5.4-copy
+CONFIG=/mnt/data/vadim/servers/my.cnf
 
+set -x
 trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
 
 startmysql(){
@@ -12,12 +13,15 @@ startmysql(){
   sysctl -q -w vm.drop_caches=3
   echo 3 > /proc/sys/vm/drop_caches
   ulimit -n 1000000
-  numactl --interleave=all /opt/vadim/Percona-Server-5.7.21-20-Linux.x86_64.ssl100/bin/mysqld --defaults-file=$CONFIG --basedir=/opt/vadim/Percona-Server-5.7.21-20-Linux.x86_64.ssl100 --user=root --innodb_buffer_pool_size=${BP}G &
+  #numactl --interleave=all $MYSQLDIR/bin/mysqld --defaults-file=$CONFIG --basedir=$MYSQLDIR --datadir=$DATADIR $1 &
+  systemctl set-environment MYSQLD_OPTS="$1"
+  systemctl start mysql-cd
 }
 
 shutdownmysql(){
   echo "Shutting mysqld down..."
-  $MYSQLDIR/bin/mysqladmin shutdown -S /tmp/mysql.sock
+  systemctl stop mysql-cd
+  #$MYSQLDIR/bin/mysqladmin shutdown -S /tmp/mysql.sock
 }
 
 waitmysql(){
@@ -54,47 +58,50 @@ collect_dstat_stats(){
 }
 
 
-# cycle by buffer pool size
 
-#xfs_fsr /dev/nvme0n1
-#xfs_fsr /dev/s
+shutdownmysql
 
-RUNDIR=res-tpcc-8.0.21-`date +%F-%H-%M`
-#for BP in 100 90 80 70 60 50 40 30 20 10 5
-for BP in 25
+#RUNDIR=res-mysql-8.0.21-tpcc-`date +%F-%H-%M`
+RUNDIR=res-mariadb-tpcc-`date +%F-%H-%M`
+echo "XFS defrag"
+xfs_fsr /dev/nvme0n1
+
+for io in 15000
 do
 
-#echo "Restoring backup"
-#rm -fr /data/sam/vadim/mysql
-#cp -r /data/sam/vadim/mysql.innoback /data/sam/vadim/mysql
+echo "Restoring backup"
+rm -fr $DATADIR
+cp -r $BACKUPDIR $DATADIR
+chown mysql.mysql -R $DATADIR
+fstrim /data
 
-#fstrim /mnt/data
+iomax=$(( 3*$io/2 ))
 
-#startmysql &
-#sleep 10
-#waitmysql
+startmysql "--innodb-io-capacity=${io} --innodb_io_capacity_max=$iomax" &
+sleep 10
+waitmysql
 
-runid="mysql-BP$BP.SSD.io2000"
-#runid="mariadb-10.5.4.BP$BP"
+runid="io$io"
 
 # perform warmup
 #./tpcc.lua --mysql-host=127.0.0.1 --mysql-user=sbtest --mysql-password=sbtest --mysql-db=sbtest --time=3600 --threads=56 --report-interval=1 --tables=10 --scale=100 --use_fk=1 run |  tee -a $OUTDIR/res.txt
 
 for i in  56
-#for i in 1 3 6 12 24 48 96
 do
 
-        OUTDIR=$RUNDIR/$runid/
+        OUTDIR=$RUNDIR/$runid
         mkdir -p $OUTDIR
 
         # start stats collection
 
+
         time=10000
-        ./tpcc.lua --mysql-host=127.0.0.1 --mysql-user=sbtest --mysql-password=sbtest --mysql-db=sbtest --time=$time --threads=$i --report-interval=1 --tables=10 --scale=100 --use_fk=0 --report-csv=yes run |  tee -a $OUTDIR/res.thr${i}txt
+        /mnt/data/vadim/bench/sysbench-tpcc/tpcc.lua --mysql-host=127.0.0.1 --mysql-user=sbtest --mysql-password=sbtest --mysql-db=sbtest --time=$time --threads=$i --report-interval=1 --tables=10 --scale=100 --use_fk=0 --report-csv=yes run |  tee -a $OUTDIR/res.thr${i}.txt
+
 
         sleep 30
 done
 
-#shutdownmysql
+shutdownmysql
 
 done
